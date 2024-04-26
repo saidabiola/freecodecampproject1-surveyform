@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <link rel='stylesheet' href='styles2.css'>
+    <title>Survey Form</title>
+
+  </head>
+
+  <body>
+    <h1 id='title'>Youths in Tech-Space.</h1>
+    <p id='description'>This is a survey form to evaluate youths involvement in the Tech-space.</p>
+
+    <form id='survey-form'>
+      <fieldset>
+        <label id='name-label'>Name <input id='name'  type='text' placeholder='Enter your full name here' required></label>
+        <label id='email-label'>Email <input id='email' required type='email'  placeholder='Enter your valid email'></label>
+        <label id='number-label'>Age <input id='number' type='number' min='16' max='35'  placeholder='Enter your age'></label>
+
+        <select id='dropdown'>
+          <option>Select current Tech-Space</option>
+           <option>AI and Machine Learning</option>
+            <option>Software Engineer</option>
+             <option>Data Analyst</option>
+              <option>Cybersecurity</option>
+               <option>Networking Engineer</option>
+                <option>DevOps Engineer</option>
+                 <option>still a student</option>
+                  <option>Not interested</option>
+        </select>
+        <p >How likely would you advice a fellow youth to join this space?</P>
+        <div id='rad'>
+          <label class='inline'>
+            <input type='radio' name='advice' class='rad'>Most likely
+          </label>
+
+          <label class='inline'>
+            <input type='radio' name='advice' class='rad'>Maybe
+          </label>
+
+          <label class='inline'>
+            <input type='radio' name='advice'class='rad'>Not sure
+          </label>
+
+      </div>
+      <div class="favlanguages">
+        <p >What are your favorite programming languages?</p>
+        <label><input type='checkbox' value='1' class='favorite_language'>Python</label>
+       <label> <input type='checkbox' value='2' class='favorite_language'>Java</label>
+        <label><input type='checkbox' value='3' class='favorite_language'>R</label>
+        <label><input type='checkbox' value='4' class='favorite_language'>C/C++</label>
+        <label><input type='checkbox' value='5' class='favorite_language'>C#<label>
+        <label><input type='checkbox' value='6' class='favorite_language'>Typescript</label>
+        <label><input type='checkbox' value='7' class='favorite_language'>Swift</label>
+        <label><input type='checkbox' value='8' class='favorite_language'>Kotlin</label>
+       <label><input type='checkbox' value='9' class='favorite_language'>Other</label>
+      </div>
+        <p >Some advice for those just about to join the tech-space?</p>
+        <textarea placeholder='The vibes here...' rows='5' cols='30'></textarea>
+
+        <input type='submit' id='submit'>
+      </fieldset>
+    </form>
+  </body>
+</html>

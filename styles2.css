@@ -1,0 +1,90 @@
+body{
+    width:100%;
+    height:100vh;
+    margin:0;
+    background-color:#1679AB;
+    color:#f5f6f7;
+    font-family:Tahoma;
+    font-size:16px;
+  }
+  
+  h1{
+    text-align:center;
+    padding-top:30px;
+  }
+  #description{
+    text-align:center;
+    font-style:italic;
+  }
+  form{
+    background-color:#074173;
+    padding:2rem 3rem;
+    margin:0 auto;
+    min-width:300px;
+    max-width:500px;
+    width:60vw;
+  }
+  input, select{
+    display:block;
+    margin-top:10px;
+    margin-bottom:20px;
+    padding:8px;
+    width:100%;
+    font-size:1rem;
+    border-radius:8px;
+    border: 0.5px solid #1679AB;
+  }
+  /*input[name='advice']{
+    width:unset;
+    
+  }*/
+  input[type='checkbox']{
+    width:unset;
+    
+    
+  }
+  label{
+    display:block;
+    margin: 0.5rem 0;
+  }
+  
+  
+  .rad{
+    width:unset;
+    margin:0 0.5em 0 0;
+    vertical-align:middle;
+    display:inline-block;
+   
+  }
+  
+  fieldset{
+    border:none;
+    padding:2rem 0;
+  }
+  
+  .favorite_language{
+    margin:0 0.5em 0 0;
+    vertical-align:middle;
+    display:inline-block;
+  }
+  textarea{
+    width:100%
+  }
+  textarea{
+     padding:8px;
+    font-size:1rem;
+    margin-bottom:20px;
+  }
+  input[type='submit']{
+    background-color:#41B06E;
+    color:#f5f6f7;
+    margin-top:30px;
+  }
+  input[type='submit']:hover{
+    background-color:#1679AB;
+    cursor:pointer;
+  }
+  
+  .favlanguages{
+    padding-bottom:20px;
+  }  
